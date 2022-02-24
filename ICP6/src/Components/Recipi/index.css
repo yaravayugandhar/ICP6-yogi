@@ -1,0 +1,83 @@
+
+/* recipe container main page */
+.recipi_main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:20px;
+    width:100%;
+    background-image: url("https://us.123rf.com/450wm/didecs/didecs1504/didecs150400007/38487573-old-recipe-note-background-concept.jpg?ver=6");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* search container */
+.search_container{
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+@media screen and (min-width:768px){
+    .search_container{
+        flex-direction: row;
+    }
+}
+
+/* input element */
+.input_search_box{
+    padding:10px;
+    width:70%;
+    text-align:center;
+    border:1px solid black;
+    border-radius:8px;
+}
+
+/* unorderdlist container*/
+.recipi_items_container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    width:100%;
+    flex-wrap:wrap;
+    list-style:none;
+}
+
+/* input search box*/
+.input_search_box{
+    font-size:20px;
+}
+
+/* serach button */
+
+.search_button{
+    text-align:center;
+    background-color:blue;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    font-size:20px;
+    cursor: pointer;
+    margin:5px;
+}
+
+@media screen and (min-width:768px){
+    .search_button{
+        margin-left:20px;}
+}
+
+/**/
+.search_recipe_heading{
+    font-family: cursive;
+    text-align:center;
+    font-size: 25px;
+    font-weight: 700;
+    color:rgb(231, 223, 223);
+}

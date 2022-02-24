@@ -1,0 +1,77 @@
+
+/* each item recipi container*/
+.eachItem_container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:80%;
+    margin:8px;
+    border-radius:8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 8px 10px 8px;
+    text-decoration: none;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+}
+@media screen and (min-width:768px){
+    .eachItem_container{
+        width:25%;
+    }
+}
+
+/* each item list item */
+.each_recipe_item{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 10px 8px 10px 8px;
+    margin:10px;
+}
+
+/* recipi image */
+.recipi_image{
+    width:90%;
+    max-width:250px;
+    padding:5px;
+    border-radius:8px;
+}
+
+/* recipi name */
+.recipe_name{
+    width: 100%;
+    padding: 5px;
+    text-align:center;
+    color:white;
+    background-color:rgb(184, 49, 39);
+    font-size:20px;
+    font-weight:600;
+    text-decoration: none;
+}
+
+/* recipi button and hyper text */
+.about_button,.about_hyper_link{
+    width:100%;
+    cursor:pointer;
+}
+
+.about_button{
+    padding:8px 5px 8px 5px;
+    text-align:center;
+    background-color: rgb(77, 158, 206);
+    color:white;
+    border-radius:8px;
+    border:none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor:pointer;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+}
+
+.main_link{
+    text-decoration: none;
+}
